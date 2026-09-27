@@ -186,7 +186,7 @@ para el detalle completo por año y dominio.
 ```{r}
 #| label: fig-ccaa-snapshot
 #| echo: false
-#| fig-cap: !expr paste0("CCAA: puntuación media vs. dispersión (", last_year, ")")
+#| fig-cap: !expr 'paste0("CCAA: puntuación media vs. dispersión (", last_year, ")")'
 knitr::include_graphics("../data/fig_ccaa_media_sd_snapshot.png")
 ```
 
