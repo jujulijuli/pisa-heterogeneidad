@@ -14,9 +14,20 @@ book:
 # freeze: false porque _quarto.yml vive en un volumen de red/externo y freeze
 # choca con los ficheros ._* (AppleDouble) que macOS crea ahí -- mismo motivo
 # que en pisa-espana-ccaa.
+#
+# cache: false (2026-09-27, a diferencia de pisa-espana-ccaa) -- con cache:
+# true, `quarto render` funcionó pero `quarto publish gh-pages` falló
+# ("object 'year' not found" en una expresión inline de 01-dispersion.qmd)
+# porque quedó una carpeta `_cache/` residual de un primer intento de render
+# que se había cortado a mitad por un error de YAML (ya corregido) -- el
+# render posterior reutilizó ese caché parcial/obsoleto en vez de
+# reejecutar los chunks. Los capítulos de este libro son ligeros (tablas y
+# gráficos sobre .rds pequeños, sin ajustes INLA) -- el coste de recalcular
+# todo en cada render es mínimo, así que no compensa el riesgo de este tipo
+# de fallo silencioso por caché desincronizado.
 execute:
   freeze: false
-  cache: true
+  cache: false
 
 bibliography: references.bib
 
