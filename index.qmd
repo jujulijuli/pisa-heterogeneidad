@@ -1,0 +1,19 @@
+# Presentación {.unnumbered}
+
+Este proyecto es hermano de `pisa-espana-ccaa` y reutiliza su pipeline de datos
+como base (2009-2025, ediciones P09/P12/P15/2022/2025). Sobre esa base añade
+tres líneas de análisis nuevas, acordadas el 2026-09-26:
+
+1. **Dispersión, no solo medias.** Evolución de la dispersión de resultados
+   (no únicamente el promedio) a nivel de CCAA y de colegio, a lo largo de
+   toda la serie disponible.
+2. **Migración ampliada.** Más allá del estatus migratorio simple
+   (nativo/2ª/1ª generación), matizada por lengua de origen y, para 1ª
+   generación, por años de residencia -- con las limitaciones de
+   disponibilidad de datos que se documentan en `README.md`.
+3. **Heterogeneidad socioeconómica de la composición del colegio.** Cómo ha
+   evolucionado, a nivel de centro, la heterogeneidad (no solo el nivel
+   medio) de la composición socioeconómica del alumnado.
+
+Ver `README.md` para el estado del proyecto, la procedencia de los datos y
+las comprobaciones de disponibilidad ya realizadas.

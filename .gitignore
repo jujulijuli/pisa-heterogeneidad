@@ -1,0 +1,10 @@
+data/
+_output/
+_freeze/
+.Rproj.user/
+.quarto/
+*.rds
+.Rhistory
+
+/.quarto/
+**/*.quarto_ipynb

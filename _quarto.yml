@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Heterogeneidad, dispersión y migración en PISA-España (2009-2025)"
+  date: today
+  chapters:
+    - index.qmd
+
+# freeze: false porque _quarto.yml vive en un volumen de red/externo y freeze
+# choca con los ficheros ._* (AppleDouble) que macOS crea ahí -- mismo motivo
+# que en pisa-espana-ccaa.
+execute:
+  freeze: false
+  cache: true
+
+bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    code-tools: true
+    fig-width: 8
+    fig-height: 5
+
+lang: es
