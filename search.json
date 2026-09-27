@@ -1,0 +1,12 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Heterogeneidad, dispersión y migración en PISA-España (2009-2025)",
+    "section": "",
+    "text": "Presentación\nEste proyecto es hermano de pisa-espana-ccaa y reutiliza su pipeline de datos como base (2009-2025, ediciones P09/P12/P15/2022/2025). Sobre esa base añade tres líneas de análisis nuevas, acordadas el 2026-09-26:\n\nDispersión, no solo medias. Evolución de la dispersión de resultados (no únicamente el promedio) a nivel de CCAA y de colegio, a lo largo de toda la serie disponible.\nMigración ampliada. Más allá del estatus migratorio simple (nativo/2ª/1ª generación), matizada por lengua de origen y, para 1ª generación, por años de residencia – con las limitaciones de disponibilidad de datos que se documentan en README.md.\nHeterogeneidad socioeconómica de la composición del colegio. Cómo ha evolucionado, a nivel de centro, la heterogeneidad (no solo el nivel medio) de la composición socioeconómica del alumnado.\n\nVer README.md para el estado del proyecto, la procedencia de los datos y las comprobaciones de disponibilidad ya realizadas.",
+    "crumbs": [
+      "Presentación"
+    ]
+  }
+]
