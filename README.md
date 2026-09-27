@@ -180,7 +180,22 @@ este proyecto (`06` + `09`) ya se haya ejecutado con datos REALES --
 
 ## Estado
 
-En construcción. Estructura del libro Quarto (`_quarto.yml`) contiene por
-ahora solo `index.qmd`; los capítulos de dispersión, migración ampliada y
-heterogeneidad de composición se añadirán a medida que se construyan los
-scripts en `R/`.
+Los 12 scripts de `R/` están ejecutados con datos reales (06 -> 09 -> 10 ->
+11 -> 12; 01-05 no dependen de esa cadena). El libro Quarto (`_quarto.yml`)
+tiene ya sus tres capítulos descriptivos, escritos 2026-09-27 a partir de
+esos resultados:
+
+- `qmd/01-dispersion.qmd`: evolución de la dispersión de resultados
+  (SD, P90-P10) a nivel de CCAA y de colegio, entre-colegios vs.
+  dentro-colegio, y por titularidad (scripts 02-03).
+- `qmd/02-migracion-lengua.qmd`: composición lingüística del alumnado
+  migrante y si la lengua de casa añade matiz a la brecha ya conocida por
+  generación (scripts 06-08).
+- `qmd/03-heterogeneidad-composicion.qmd`: heterogeneidad de la
+  composición socioeconómica del colegio, su correlación ecológica por
+  CCAA y, con potencia real, a nivel de colegio (scripts 04-05, 09-12) --
+  cierra comparando sus conclusiones con el modelo INLA de
+  `pisa-espana-ccaa/R/09_modelo_covariables_colegio.R`.
+
+Publicado en GitHub Pages: <https://jujulijuli.github.io/pisa-heterogeneidad/>
+(repo: <https://github.com/jujulijuli/pisa-heterogeneidad>).

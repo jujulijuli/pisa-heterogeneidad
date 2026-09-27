@@ -7,6 +7,9 @@ book:
   date: today
   chapters:
     - index.qmd
+    - qmd/01-dispersion.qmd
+    - qmd/02-migracion-lengua.qmd
+    - qmd/03-heterogeneidad-composicion.qmd
 
 # freeze: false porque _quarto.yml vive en un volumen de red/externo y freeze
 # choca con los ficheros ._* (AppleDouble) que macOS crea ahí -- mismo motivo
